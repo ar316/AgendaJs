@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-color: rgb(46, 53, 51);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 40px;
+}
+
+.header .logo img{
+    height: 60px;;
+    width: auto
+}
+
+.header .nav-links{
+    display: flex;
+    
+}
+.header .nav-links li {
+    list-style: none;
+    margin-left: 10px;
+    display: inline-block;
+    padding: 0 15px; 
+}
+
+.header .nav-links li a{
+    text-decoration: none;
+    color: white;
+}
+
+.header a button{
+    padding: 9px;
+    font-size: 20px;
+    border-radius: 50px;
+    background-color: rgba(250, 235, 215, 0.938);
+}
+.header a button:hover{
+    cursor: pointer;
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    margin-top: 100px;
+    background-color: rgb(253, 253, 253);
+    width: 500px;
+    height: 550px;
+    padding: 50px 55px;
+    box-shadow: 0 0 20px rgb(209, 209, 209);
+    border-radius: 10px;
+
+}
+form h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.info-group {
+    
+   
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+ 
+}
+
+label{
+    color: rgb(0, 0, 0);
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    margin-bottom: 15px;
+}
+input{
+    margin-bottom: 20px;
+    padding:  17px 25px;
+    border-radius: 20px;
+    background-color:  rgb(247, 228, 211);
+    border: 1px solid rgb(247, 228, 211);;
+   
+}
+.btn-input{
+    margin-top: 25px;
+    background-color: rgb(122, 243, 122);
+    box-shadow: 0 0 5px  rgb(122, 243, 122);;
+}
